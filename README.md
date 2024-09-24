@@ -27,33 +27,36 @@ Make sure you have the following installed on your Linux machine:
    ```bash
    git clone https://github.com/aniismess/Mogger-Processor-Linux.git
    cd Mogger-Processor-Linux
+   ```
 
-    Compile the project:
+2. Compile the project:
 
-    bash
+   ```bash
+   gcc main.c process.c file_operation.c os1.c command_interpreter.c -o mogger_processor
+   ```
 
-    gcc main.c process.c file_operation.c os1.c command_interpreter.c -o mogger_processor
-
-Usage
+### Usage
 
 To run the Mogger Processor, execute the following command in your terminal:
 
-bash
-
+```bash
 ./mogger_processor
+```
 
-Functionality
+### Functionality
 
-    Creating a Process: You can create a process by entering its name and priority when prompted.
-    Listing Processes: Use the provided commands to list all active processes.
-    Managing Processes: Start, stop, or terminate processes using their IDs.
+- **Creating a Process**: You can create a process by entering its name and priority when prompted.
+- **Listing Processes**: Use the provided commands to list all active processes.
+- **Managing Processes**: Start, stop, or terminate processes using their IDs.
 
-Contributing
+## Contributing
 
 If you would like to contribute to this project, please feel free to fork the repository and submit a pull request.
-License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
+## License
 
-For any inquiries, please contact me at animesh.mishra818@gmail.com.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please contact me at [animesh.mishra818@gmail.com](mailto:animesh.mishra818@gmail.com).
