@@ -53,10 +53,6 @@ To run the Mogger Processor, execute the following command in your terminal:
 
 If you would like to contribute to this project, please feel free to fork the repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any inquiries, please contact me at [animesh.mishra818@gmail.com](mailto:animesh.mishra818@gmail.com).
